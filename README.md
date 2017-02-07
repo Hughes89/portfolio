@@ -29,7 +29,7 @@ Fork and clone repo
   - This will run your node server using nodemon 
     - Nodemon allows your server to auto refresh on update
 
-#### Recommended File Structure
+### Recommended File Structure
   ```
   client/
     app/
@@ -47,7 +47,7 @@ Fork and clone repo
   ```
 
 
-#### Notes
+### Notes
 - **You must use $inject for everything or else the build will fail!!**
   ```
   angular
