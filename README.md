@@ -22,8 +22,8 @@ Fork and clone repo
         method: 'POST',
         url: '/api/signup',
       })
-      ```
-  
+```
+ 
 #### Server
 - Run `npm run dev-server`
   - This will run your node server using nodemon 
