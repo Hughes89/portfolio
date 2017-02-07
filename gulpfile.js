@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
+var ngmin = require('gulp-ngmin');
 var sourcemaps = require('gulp-sourcemaps');
 var babel = require('gulp-babel');
 var browserSync = require('browser-sync').create();
@@ -14,6 +15,7 @@ gulp.task('js', function() {
     .pipe(sourcemaps.init())
     .pipe(concat('app.js', {newLine: ';'}))
     .pipe(babel({presets: ['es2015']}))
+    .pipe(ngmin())
     .pipe(uglify({mangle: true}))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./client/dist/'))
