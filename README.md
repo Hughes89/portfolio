@@ -52,11 +52,14 @@ Fork and clone repo
   ```
   angular
     .module('app')
-    .config(config);
+    .controller('HomeController', HomeController);
 
-    config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider', '$httpProvider'];
+    HomeController.$inject = ['$location'];
 
-    function config ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {}
+    function HomeController ($location) {
+      var vm = this;
+      vm.welcome = "Hello World!!!";
+    }
   ```
 - The #! or hashbang has already been removed
 - As stated above the BrowserSync uses the node server as a proxy for any api calls it is recommended to start any API routes with /api
