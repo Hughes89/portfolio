@@ -3,9 +3,9 @@
 ## Instructions
 
 Fork and clone repo
-`npm install`
-`npm run build`
-  - This will create the dist folder containing the app.js and styles.css for the index to use.
+- `npm install`
+- `npm run build`
+  - This will create the dist folder containing the app.js and styles.css for the index.html to use.
 
 ### Development
 
