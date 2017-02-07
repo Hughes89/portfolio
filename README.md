@@ -29,7 +29,7 @@ Fork and clone repo
   - This will run your node server using nodemon 
     - Nodemon allows your server to auto refresh on update
 
-## Recommended File Structure
+### File Structure
   ```
   client/
     app/
