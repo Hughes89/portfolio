@@ -3,6 +3,7 @@
   border: 1px;
   border-style: solid;
   border-bottom: 0px;
+  height: 3em;
 }
 
 .nav-title {
@@ -16,6 +17,7 @@
 
 .nav-buttons {
   word-spacing: 1em;
+  padding-right: 5px;
   text-align: right;
 }
 
@@ -29,5 +31,6 @@
   color: white;
   cursor: pointer;
   outline: none;
+  line-height: 2;
 }
 
