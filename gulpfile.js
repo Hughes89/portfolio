@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
-var ngmin = require('gulp-ngmin');
+var ngAnnotate = require('gulp-ng-annotate');
 var sourcemaps = require('gulp-sourcemaps');
 var babel = require('gulp-babel');
 var browserSync = require('browser-sync').create();
@@ -11,11 +11,11 @@ var proxyMiddleware = require('http-proxy-middleware');
 var cleanCSS = require('gulp-clean-css');
 
 gulp.task('js', function() {
-  return gulp.src(['./client/**.module.js', './client/**.config.js', './client/app/**/**.module.js', './client/app/**/*.js'])
+  return gulp.src(['./client/app/**.module.js', './client/app/**.config.js', './client/app/**/**.module.js', './client/app/**/*.js'])
     .pipe(sourcemaps.init())
     .pipe(concat('app.js', {newLine: ';'}))
     .pipe(babel({presets: ['es2015']}))
-    .pipe(ngmin())
+    .pipe(ngAnnotate())
     .pipe(uglify({mangle: true}))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./client/dist/'))
@@ -48,7 +48,7 @@ gulp.task('serve', ['watch'], function() {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['./client/app.js', './client/app-routes.js', './client/app/**/**.module.js', './client/app/**/*.js'], ['js']);
+  gulp.watch(['./client/app/**.module.js', './client/app/**.config.js', './client/app/**/**.module.js', './client/app/**/*.js'], ['js']);
   gulp.watch('./client/css/*.css', ['css']);
   gulp.watch(['./client/*.html', './client/**/*.html'], ['html']);
 });
