@@ -9,11 +9,17 @@
 
     function config ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
       $stateProvider
-        .state('home', {
+        .state('about', {
           url: '/',
-          templateUrl: 'app/home/home.html',
-          controller: 'HomeController',
-          controllerAs: 'home'
+          templateUrl: 'app/about/about.html',
+          controller: 'AboutController',
+          controllerAs: 'about'
+        })
+        .state('projects', {
+          url: '/projects',
+          templateUrl: 'app/projects/projects.html',
+          controller: 'ProjectsController',
+          controllerAs: 'projects'
         });
       $urlRouterProvider.otherwise('/');
       $locationProvider.html5Mode(true); //Remove the '#' from URL.
