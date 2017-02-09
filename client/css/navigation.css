@@ -1,0 +1,33 @@
+.navigation {
+  background-color: gray;
+  border: 1px;
+  border-style: solid;
+  border-bottom: 0px;
+}
+
+.nav-title {
+  color: white;
+  font-size: 20px;
+  padding-left: 5px;
+  position: absolute;
+  text-align: left;
+  line-height: 2;
+}
+
+.nav-buttons {
+  word-spacing: 1em;
+  text-align: right;
+}
+
+.nav-button {
+  border: 0;
+  background-color: inherit;
+  border-bottom: 0px;
+  padding: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
