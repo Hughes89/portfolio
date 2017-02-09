@@ -6,7 +6,20 @@ img.display {
   width: 70%;
 }
 
-.about-body {
+.picture-info {
+  width: 40%;
+  text-align: center;
+}
+
+.skills{
   width: 100%;
   text-align: center;
+}
+
+.icons {
+  text-align: center;
+}
+
+.aboutme {
+  text-align: center
 }
