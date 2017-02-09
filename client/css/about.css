@@ -1,0 +1,12 @@
+.about-content {
+  display: flex;
+}
+
+img.display {
+  width: 70%;
+}
+
+.about-body {
+  width: 100%;
+  text-align: center;
+}
