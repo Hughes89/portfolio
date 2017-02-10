@@ -4,6 +4,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .ng-hide {
     display: none!important;
 }
