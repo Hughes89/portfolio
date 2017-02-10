@@ -2,7 +2,7 @@
   <div class="picture-info">
     <img class="display" src="https://avatars3.githubusercontent.com/u/17888273?v=3&s=460"><br>
     <div class="icons">
-      <i class="fa fa-github" aria-hidden="true"></i>  <i class="fa fa-linkedin-square" aria-hidden="true"></i><br>
+      <i class="fa fa-github fa-2x" aria-hidden="true"></i>  <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i><br>
     </div>
     <hr>
     <div class="aboutme">
@@ -11,7 +11,20 @@
     </div>
   </div>
   <div class="skills">
-    <strong>Skills</strong><br>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    <strong>Skills</strong>
+    <div class="skill-list">
+      <div class="skill-list-one">
+        <div id="skill-name" ng-repeat="skill in about.skills._one">
+          {{skill.name}}
+          <div class="progress-bar" id={{skill.id}}></div>
+        </div>
+      </div>
+      <div class="skill-list-two">
+        <div id="skill-name" ng-repeat="skill in about.skills._two">
+          {{skill.name}}
+          <div class="progress-bar" id={{skill.id}}></div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

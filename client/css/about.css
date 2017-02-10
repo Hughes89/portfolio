@@ -9,11 +9,9 @@ img.display {
 .picture-info {
   width: 40%;
   text-align: center;
-}
-
-.skills{
-  width: 100%;
-  text-align: center;
+  border: 0px;
+  border-right: 1px;
+  border-style: solid;
 }
 
 .icons {
@@ -23,3 +21,29 @@ img.display {
 .aboutme {
   text-align: center
 }
+
+.skills{
+  width: 100%;
+  text-align: center;
+}
+
+.skill-list {
+  display: flex;
+  text-align: center;
+}
+
+.skill-list-one {
+  padding: 1em;
+  width: 50%;
+  padding-right: 3px;
+}
+
+.skill-list-two {
+  padding: 1em;
+  width: 50%;
+}
+
+.progress-bar {
+  padding: 3px;
+}
+
