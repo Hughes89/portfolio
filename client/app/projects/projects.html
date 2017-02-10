@@ -1,3 +1,19 @@
-<div>
-  {{projects.welcome}}
+<div class="projects-container">
+  <div class="projects-list">
+    <div ng-repeat="project in projects.projects">
+      <p>
+        <span class="project-title"><h3>{{project.title}}</h3></span>
+        <img class="project-image" src={{project.img}}><br><br>
+        <span class="project-description">{{project.description}}</span>
+        <br><br>
+        <span class="project-tech" ng-repeat="tech in project.tech">
+          <i class={{projects.techIcons[tech]}}></i>
+        </span>
+        <br><br>
+        <a href={{project.site}}>Website</a> |
+        <a href={{project.github}}>Github</a>
+      </p>
+      <span class="fade-line" ng-if="project.title !== 'Jacked Reactor'"></span>
+    </div>
+  </div>
 </div>

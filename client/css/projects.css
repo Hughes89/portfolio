@@ -1,0 +1,48 @@
+.projects-container {
+  overflow-y: auto;
+  height: 520px;
+}
+
+.projects-list {
+  text-align: center;
+}
+
+.project-image {
+  padding: 5px;
+  width: 50%;
+  border-radius: 20px;
+  border: 2px;
+}
+
+.project-tech {
+  padding: .5em;
+}
+
+.devicon-angularjs-plain-wordmark {
+  font-size: 4em;
+}
+
+.devicon-react-original-wordmark {
+  font-size: 4em;
+}
+
+.devicon-nodejs-plain-wordmark {
+  font-size: 4em;
+}
+
+.devicon-mysql-plain-wordmark {
+  font-size: 4em;
+}
+
+.devicon-mongodb-plain-wordmark {
+  font-size: 4em;
+}
+
+.fade-line {
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
