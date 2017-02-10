@@ -4,5 +4,3 @@ node_modules/
 #Runtime data
 *.lock
 
-#Production
-client/dist/
