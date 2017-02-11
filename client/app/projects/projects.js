@@ -24,8 +24,7 @@
       site: 'http://zeus-reviews.herokuapp.com/',
       github: 'https://github.com/Zeus-HatersGonaHate/Zeus-HatersGonaHate',
       description: 'Website for writing reviews about movies and television shows and interacting with other reviews.',
-      tech: ['Angular', 'Node', 'MongoDB'],
-      style: { 'background-color': '#F0F0F0' }
+      tech: ['Angular', 'Node', 'MongoDB']
     },
         {
       title: 'Scripty + Dashreactor',
@@ -41,8 +40,7 @@
       site: 'https://jackedreactor.herokuapp.com/',
       github: 'https://github.com/Hughes89/JackedReactor',
       description: 'Fitness tracking app focused on tracking the user’s strength progression.',
-      tech: ['Angular', 'Node', 'MongoDB'],
-      style: { 'background-color': '#F0F0F0' }
+      tech: ['Angular', 'Node', 'MongoDB']
     }
   ];
 

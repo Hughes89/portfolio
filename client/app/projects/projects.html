@@ -1,21 +1,20 @@
 <div class="projects-container">
   <div class="projects-list">
-    <div ng-repeat="project in projects.projects">
-      <div ng-style={{project.style}}>
-          <div class="project-title"><strong>{{project.title}}</strong></div><br>
-          <img class="project-image" src={{project.img}}><br><br>
-          <span class="project-description">{{project.description}}</span>
-          <br><br>
-          <span class="project-tech" ng-repeat="tech in project.tech">
-            <i title={{tech}} class={{projects.techIcons[tech]}}></i>
-          </span>
-          <br>
-          <div class="project-links">
-          <span ng-if="project.title !== 'Scripty + Dashreactor'"><a href={{project.site}} target="blank"><button class="project-link-button">Website</button></a>
-          <span class="space"></span></span>
-          <a href={{project.github}} target="blank"><button class="project-link-button">Github</button></a>
-          </div>
-      </div>
+    <div ng-repeat="project in projects.projects">  
+      <div class="project-title"><strong>{{project.title}}</strong></div><br>
+      <img class="project-image" src={{project.img}}><br>
+      <span class="project-description">{{project.description}}</span>
+      <br>
+      <span class="project-tech" ng-repeat="tech in project.tech">
+        <i title={{tech}} class={{projects.techIcons[tech]}}></i>
+      </span>
+      <br>
+      <div class="project-links">
+        <span class="project-website" ng-if="project.site">
+          <a href={{project.site}} target="blank"><button class="project-link-button">Website</button></a>
+        </span>
+        <a href={{project.github}} target="blank"><button class="project-link-button">Github</button></a>
+      </div>    
     </div>
   </div>
 </div>

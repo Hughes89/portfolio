@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.projects-list > div:nth-child(even) {
+  background-color: #F0F0F0;
+}
+
 .project-title {
   padding-top: .5em;
   font-size: 22px;
@@ -14,7 +18,7 @@
 }
 
 .project-image {
-  padding: 5px;
+  padding-bottom: 1em;
   width: 50%;
   border-radius: 20px;
   border: 2px;
@@ -30,11 +34,11 @@
 
 .project-links {
   padding-top: 1em;
-  padding-bottom: .5em;
+  padding-bottom: .75em;
 }
 
-.space {
-  padding: 1em;
+.project-website{
+  padding-right: 2em;
 }
 
 .project-link-button {
