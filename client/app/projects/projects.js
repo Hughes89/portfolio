@@ -3,7 +3,7 @@
 
   window.projects = [
     {
-      title: '<strong>S</strong>ushiii',
+      title: 'Sushiii',
       img: 'https://s6.postimg.org/oahsedkch/Screen_Shot_2017_02_10_at_1_20_59_PM.png',
       site: 'http://sushiii.me/',
       github: 'https://github.com/Hughes89/sushi',
@@ -19,7 +19,7 @@
     //   tech: ['React', 'Node', 'MongoDB']
     // },
         {
-      title: '<strong>Z</strong>eus Reviews',
+      title: 'Zeus Reviews',
       img: 'https://s6.postimg.org/rozyuifr5/Screen_Shot_2016_11_23_at_1_34_46_PM.png',
       site: 'http://zeus-reviews.herokuapp.com/',
       github: 'https://github.com/Zeus-HatersGonaHate/Zeus-HatersGonaHate',
@@ -28,7 +28,7 @@
       style: { 'background-color': '#F0F0F0' }
     },
         {
-      title: '<strong>S</strong>cripty + <strong>D</strong>ashreactor',
+      title: 'Scripty + Dashreactor',
       img: 'https://s6.postimg.org/5w79ae81t/Screen_Shot_2017_02_10_at_1_34_48_PM.png',
       site: undefined,
       github: 'https://github.com/Hughes89/scripty',
@@ -36,7 +36,7 @@
       tech: ['React', 'Node', 'MongoDB'],
     },
         {
-      title: '<strong>J</strong>acked Reactor',
+      title: 'Jacked Reactor',
       img: 'https://s6.postimg.org/3p30mh2rl/Screen_Shot_2017_02_10_at_1_19_22_PM.png',
       site: 'https://jackedreactor.herokuapp.com/',
       github: 'https://github.com/Hughes89/JackedReactor',
