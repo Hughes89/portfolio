@@ -11,11 +11,11 @@
       var vm = this;
       vm.projects = window.projects;
       vm.techIcons = {
-        Angular: 'devicon-angularjs-plain-wordmark',
-        React: 'devicon-react-original-wordmark',
-        Node: 'devicon-nodejs-plain-wordmark',
-        MySQL: 'devicon-mysql-plain-wordmark',
-        MongoDB: 'devicon-mongodb-plain-wordmark'
+        Angular: 'devicon-angularjs-plain-wordmark colored',
+        React: 'devicon-react-original-wordmark colored',
+        Node: 'devicon-nodejs-plain-wordmark colored',
+        MySQL: 'devicon-mysql-plain-wordmark colored',
+        MongoDB: 'devicon-mongodb-plain-wordmark colored'
       };
     }
 

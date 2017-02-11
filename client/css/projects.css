@@ -7,6 +7,12 @@
   text-align: center;
 }
 
+.project-title {
+  padding-top: .5em;
+  font-size: 22px;
+  line-height: 1;
+}
+
 .project-image {
   padding: 5px;
   width: 50%;
@@ -18,24 +24,32 @@
   padding: .5em;
 }
 
-.devicon-angularjs-plain-wordmark {
-  font-size: 4em;
+.project-tech i {
+  font-size: 6em;
 }
 
-.devicon-react-original-wordmark {
-  font-size: 4em;
+.project-links {
+  padding-top: 1em;
+  padding-bottom: .5em;
 }
 
-.devicon-nodejs-plain-wordmark {
-  font-size: 4em;
+.space {
+  padding: 1em;
 }
 
-.devicon-mysql-plain-wordmark {
-  font-size: 4em;
-}
-
-.devicon-mongodb-plain-wordmark {
-  font-size: 4em;
+.project-link-button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  height: 36px;
+  line-height: 36px;
+  background-color: #2EC9C9;
+  color: white;
+  text-decoration: none;
+  outline: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2)
 }
 
 .fade-line {
@@ -43,6 +57,6 @@
     border:none;
     color:white;
     height:1px;
-    background:black;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+    background:#333;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#333), to(#fff));
 }
