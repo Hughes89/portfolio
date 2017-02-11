@@ -1,6 +1,6 @@
-.projects-container {
-  /*overflow-y: auto;
-  height: 520px;*/
+.project {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .projects-list {
