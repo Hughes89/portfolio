@@ -11,8 +11,8 @@
           </span>
           <br>
           <div class="project-links">
-          <a href={{project.site}} target="blank"><button class="project-link-button">Website</button></a>
-          <span class="space"></span>
+          <span ng-if="project.title !== 'Scripty + Dashreactor'"><a href={{project.site}} target="blank"><button class="project-link-button">Website</button></a>
+          <span class="space"></span></span>
           <a href={{project.github}} target="blank"><button class="project-link-button">Github</button></a>
           </div>
       </div>
