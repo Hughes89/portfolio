@@ -4,14 +4,18 @@
 
 img.display {
   width: 70%;
+  padding-bottom: 5px;
 }
 
 .picture-info {
+  padding: .5em;
+  background-color: #F0F0F0;
   width: 40%;
   text-align: center;
   border: 0px;
   border-right: 1px;
-  border-style: solid;
+  border-style: none;
+  border-color: #333;
 }
 
 .icons {
@@ -22,9 +26,32 @@ img.display {
   text-align: center
 }
 
+.about-icon {
+  padding: .25em;
+}
+
+.aboutme-content {
+  font-size: 14px;
+}
+
 .skills{
   width: 100%;
   text-align: center;
+}
+
+.skill-head {
+  font-size: 26px;
+  padding-top: .25em;
+  padding-bottom: .25em;
+}
+
+.skill-fade-line {
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:#333;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#333), to(#fff));
 }
 
 .skill-list {

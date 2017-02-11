@@ -2,17 +2,25 @@
   <div class="picture-info">
     <img class="display" src="https://avatars3.githubusercontent.com/u/17888273?v=3&s=460"><br>
     <div class="icons">
-      <a href="https://github.com/Hughes89" target="blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>  <a href="https://linkedin.com/in/mhughesiii" target="blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+      <span class="about-icon"><a href="https://github.com/Hughes89" target="blank"><i title="Github" class="fa fa-github fa-2x" aria-hidden="true"></i></a></span>
+      <span class="about-icon"><a href="https://linkedin.com/in/mhughesiii" target="blank"><i title="Linked In" class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></span>
       <br>
     </div>
-    <hr>
+    <!--<hr>-->
     <div class="aboutme">
-      <strong>About Me</strong><br>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      <p><strong>E</strong>ducation:<br>
+      <span class="aboutme-content">
+        Hack Reactor, Advanced Software Engineering Immersive Program
+      </span></p>
+      <strong>A</strong>bout Me:<br>
+      <span class="aboutme-content">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </span>
     </div>
   </div>
   <div class="skills">
-    <strong>Skills</strong>
+    <div class="skill-head"><strong>S</strong>kills</div>
+    <span class="skill-fade-line"></span>
     <div class="skill-list">
       <div class="skill-list-one">
         <div id="skill-name" ng-repeat="skill in about.skills._one">
