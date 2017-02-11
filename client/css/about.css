@@ -44,6 +44,7 @@ img.display {
 .skills{
   width: 100%;
   text-align: center;
+  overflow-y: auto;
 }
 
 #skill-name {
@@ -83,5 +84,20 @@ img.display {
 
 .progress-bar {
   padding: 3px;
+}
+
+.experience {
+  margin: 0 auto;
+  padding-top: .25em;
+  text-align: center;
+}
+
+.experience-content {
+  text-align: left;
+  display: inline-block;
+}
+
+.experience-bullets {
+  margin: 0;
 }
 
