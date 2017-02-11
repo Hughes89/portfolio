@@ -46,6 +46,10 @@ img.display {
   text-align: center;
 }
 
+#skill-name {
+  padding: .05em;
+}
+
 .skill-head {
   font-size: 26px;
   padding-top: .25em;
