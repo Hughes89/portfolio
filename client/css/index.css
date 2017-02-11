@@ -2,11 +2,12 @@ body {
     padding: 1.75em;
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: #2EC9C9;
 }
 
 .ng-hide {
@@ -14,12 +15,12 @@ a {
 }
 
 .content {
-    padding: 10px;
+    /*padding: .5em;*/
     border: 1px;
+    border-top: 0px;
     border-style: solid;
-    border-color: black;
+    border-color: #333;
     box-shadow: 5px 5px 5px #888888;
-    z-index: 1000;
 }
 
 /* Loading spinner */
