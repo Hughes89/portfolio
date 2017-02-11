@@ -2,9 +2,14 @@
   display: flex;
 }
 
+.about-title {
+  font-size: 25px;
+  font-weight: strong;
+}
+
 img.display {
   width: 70%;
-  padding-bottom: 5px;
+  padding-bottom: .5em;
 }
 
 .picture-info {
@@ -23,7 +28,9 @@ img.display {
 }
 
 .aboutme {
-  text-align: center;
+  padding: .4em;
+  text-align: left;
+  display: inline-block
 }
 
 .about-icon {
