@@ -2,7 +2,7 @@
   <div class="projects-list">
     <div ng-repeat="project in projects.projects">
       <div ng-style={{project.style}}>
-          <div class="project-title" ng-bind-html="project.title"></div><br>
+          <div class="project-title"><strong>{{project.title}}</strong></div><br>
           <img class="project-image" src={{project.img}}><br><br>
           <span class="project-description">{{project.description}}</span>
           <br><br>
@@ -15,7 +15,6 @@
           <span class="space"></span>
           <a href={{project.github}} target="blank"><button class="project-link-button">Github</button></a>
           </div>
-        <!--<span class="fade-line" ng-if="project.title != '<strong>J</strong>acked Reactor'"></span>-->
       </div>
     </div>
   </div>
