@@ -48,52 +48,57 @@
       name: "React Native", 
       percentage: 80,
       color: "#aec5e6"
-    }, ];
+    },{
+      id: "s9",
+      name: "Redux",
+      percentage: 65,
+      color: "#8628be"
+    } ];
 
   window.skills.two = [{
-      id: "s9",
+      id: "s10",
       name: "Backbone", 
       percentage: 65,
       color: "#6EA4BF"
     }, 
     {
-      id: "s10",
+      id: "s11",
       name: "Node/Express", 
       percentage: 95,
       color: "#EF767A"
     }, 
     {
-      id: "s11",
+      id: "s12",
       name: "MongoDB", 
       percentage: 95,
       color: "#FFBA49"
     }, 
     {
-      id: "s12",
+      id: "s13",
       name: "MySQL", 
       percentage: 90,
       color: "#A1CF6B"
     }, 
     {
-      id: "s13",
+      id: "s14",
       name: "Git", 
       percentage: 95,
       color: "#FFE066"
     }, 
     {
-      id: "s14",
+      id: "s15",
       name: "Gulp", 
       percentage: 85,
       color: "#63CCCA"
     }, 
     {
-      id: "s15",
+      id: "s16",
       name: "Webpack",
       percentage: 85,
       color: "#4a9ccc"
     },
     {
-      id: "s16",
+      id: "s17",
       name: "Mocha/Chai", 
       percentage: 65,
       color: "#397367"
